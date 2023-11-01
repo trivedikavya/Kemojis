@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moving Rock</title>
+<style>
+  #rock {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+  }
+</style>
+</head>
+<body>
+  <div id="rock"></div>
+  <script>
+    function moveRock() {
+      const rock = document.getElementById('rock');
+      let position = 0;
+      let direction = 1; // 1 for moving right, -1 for moving left
+      const interval = setInterval(() => {
+        position += 1 * direction;
+        rock.style.left = position + 'px';
+        if (position >= window.innerWidth - 100 || position <= 0) {
+          direction *= -1; // Change direction when reaching edges
+        }
+      }, 10);
+    }
+    setTimeout(moveRock, 5000);
+  </script>
+</body>
+</html>
