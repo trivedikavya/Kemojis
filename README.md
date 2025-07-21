@@ -1,1 +1,1 @@
-Proper Readme soon ... open to contribute
+Proper Readme soon with proper Guide ... open to contribute
