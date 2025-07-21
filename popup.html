@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kemojis Settings</title>
+</head>
+<body style="margin: 0; padding: 20px; width: 280px; font-family: 'Segoe UI', sans-serif; background: #f8f8f8; color: #111; box-sizing: border-box;">
+
+  <!-- Card Container -->
+  <div style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+
+    <!-- Header -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+      <h2 style="font-size: 28px; margin: 0;">Kemojis</h2>
+    </div>
+
+    <!-- Emoji Input -->
+    <label for="emojiInput" style="font-size: 13px; font-weight: 600;">Emoji</label>
+    <input type="text" id="emojiInput" maxlength="2" placeholder="e.g. 😄"
+      style="width: 90%; padding: 8px 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 10px; margin-top: 5px; margin-bottom: 16px;" />
+
+    <!-- Size Slider -->
+    <label for="sizeSlider" style="font-size: 13px; font-weight: 600;">Size</label>
+    <input type="range" id="sizeSlider" min="16" max="64" value="20"
+      style="width: 100%; margin-top: 6px; accent-color: black;" />
+    <span id="sizeValue" style="font-size: 12px; color: #444;">20px</span>
+
+    <!-- Preview Box -->
+    <div id="preview"
+      style="margin-top: 18px; font-size: 32px; text-align: center; padding: 12px; background: #fafafa; border: 1px dashed #ccc; border-radius: 12px;">
+    </div>
+
+    <!-- Buttons -->
+    <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+      <button id="saveBtn"
+        style="flex: 1; margin-right: 10px; background: black; color: white; padding: 10px; border: none; border-radius: 8px; cursor: pointer;">Save</button>
+      <button id="resetBtn" style="flex: 1; margin-right: 10px; background: black; color: white; padding: 10px; border: none; border-radius: 8px; cursor: pointer;">Reset</button>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

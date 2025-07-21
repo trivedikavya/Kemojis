@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Kemojis",
+  "version": "1.0",
+  "description": "Turn your cursor into a custom emoji!",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+     "default_icon": {
+      "16": "kemojislogo.png",
+      "48": "kemojislogo.png",
+      "128": "kemojislogo.png"
+     }
+  },
+    "icons": {
+    "16": "kemojislogo.png",
+    "32": "kemojislogo.png",
+    "48": "kemojislogo.png",
+    "128": "kemojislogo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["emoji-cursor.js", "emoji-selector.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
