@@ -66,7 +66,6 @@ kemojis/
 ├── emoji-cursor.js       # Cursor creation utility
 ├── emoji-selector.js     # Quick selector functionality
 └── kemojislogo.png       # Extension icon
- 
 ```
 
 ## 🛠️ Technical Details
