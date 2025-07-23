@@ -22,7 +22,7 @@ Kemojis is a Chrome extension that replaces your default cursor with customizabl
 
 > **Note**: A demo video will be added here to showcase the extension in action
 > 
-> ![Demo Video Placeholder](WhatsApp Video 2025-07-21 at 10.03.41 PM.mp4)
+> ![Demo Video Placeholder](https://github.com/trivedikavya/Kemojis/blob/main/demovideo.mp4)
 
 ## 🚀 Installation
 
