@@ -19,12 +19,10 @@ Kemojis is a Chrome extension that replaces your default cursor with customizabl
 - **Persistent Settings**: Your preferences are saved across browser sessions
 
 ##  Demo
-
 > 🐦 **Tweet Preview**:  
 > 👉 [Day 7 – Kemoji Chrome Extension on Twitter](https://twitter.com/iamkavyatrivedi/status/1947337951270342769)  
-> *Shared as part of my #BuildInPublic journey! there *
->
-<iframe src="https://x.com/iamkavyatrivedi/status/1947337951270342769/video/1"></iframe>
+> *Shared as part of my #BuildInPublic journey! there You will found demo Video There and More detail also *
+
 
 
 
