@@ -14,7 +14,6 @@ Kemojis is a Chrome extension that replaces your default cursor with customizabl
   - 📜 **Scroll**: Directional rotation based on scroll direction
   - ⏰ **Idle Animation**: Gentle jumping when inactive for 30+ seconds
 - **Customizable Size**: Adjust emoji size from 16px to 64px
-- **Quick Emoji Selector**: Press `Ctrl + Alt + K` for quick emoji switching
 - **Real-time Preview**: See changes instantly in the popup
 - **Persistent Settings**: Your preferences are saved across browser sessions
 
